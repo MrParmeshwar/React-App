@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 
-// 
+// This is An Example Of Use Of Multifields in Controlled Component.
 const App=()=>{
   const [values,setvalues]=useState({fname:' ',address: '  '})
   const he=(event)=>{
