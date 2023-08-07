@@ -5,7 +5,11 @@ export const Zero=()=>{
         Store.dispatch(ZERO)
     }
     return(
-        <button onClick={buttonclicked3}>Zero</button>        
+        <>
+        <button onClick={buttonclicked3}>Decrement</button>  
+        <br></br>
+        See The Result On Home Page.   
+        </>
     )
       
 }

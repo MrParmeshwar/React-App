@@ -17,7 +17,7 @@ export const Inr=()=>{
        
         <button onClick={buttonclicked1}>Increment</button>     
         <br></br>   
-        
+        See The Result On Home Page.
         </>
     )
       

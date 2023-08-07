@@ -5,7 +5,11 @@ export const Dcr=()=>{
         Store.dispatch(DCR)
     }
     return(
-        <button onClick={buttonclicked2}>Decrement</button>        
+        <>
+        <button onClick={buttonclicked2}>Decrement</button>  
+        <br></br>
+        See The Result On Home Page.
+        </>      
     )
       
 }
